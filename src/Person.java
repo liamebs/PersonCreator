@@ -1,10 +1,10 @@
 public class Person {
     private String name;
     private int age;
-    private String height;
-    private String weight;
+    private int height;
+    private double weight;
 
-    public Person(String name, int age, String height, String weight) {
+    public Person(String name, int age, int height, double weight) {
         this.name = name;
         this.age = age;
         this.height = height;
@@ -19,11 +19,17 @@ public class Person {
         return age;
     }
 
-    public String getHeight() {
+    public int getHeight() {
         return height;
     }
 
-    public String getWeight() {
+    public double getWeight() {
         return weight;
+    }
+
+    public void growOlder() {
+        age++;
+        height--;
+        weight -= 0.5;
     }
 }
