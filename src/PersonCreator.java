@@ -13,11 +13,9 @@ public class PersonCreator {
         System.out.println(Person02.getName());
         System.out.println("Age: " + Person02.getAge());
         System.out.println("Height: " + Person02.getHeight() + "cm");
-        System.out.println("Weight: " + Person02.getWeight() + "cm");
-        System.out.println();
-
+        System.out.println("Weight: " + Person02.getWeight() + "lbs");
         Person01.growOlder();
-
+        System.out.println();
         System.out.println(Person01.getName());
         System.out.println("Age: " + Person01.getAge());
         System.out.println("Height: " + Person01.getHeight() + "cm");
